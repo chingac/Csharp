@@ -1,0 +1,8 @@
+﻿ID, FirstName, LastName, DateOfBirth, Salary, Picture
+1, Dino, Flintstone, 1981-05-23, 49500, ~/images/dino.jpg
+2, BamBam, Rubble, 1999-01-16, 22000, ~/images/bambam.jpg
+3, Barney, Rubble, 1985-02-20, 50000, ~/images/barney.jpg
+4, Betty, Rubble, 1990-03-03, 39000, ~/images/betty.jpg
+5, Fred, Flintstone, 1979-04-12, 80000, ~/images/fred.jpg
+6, Pebbles, Flintstone, 1999-06-26, 11000, ~/images/pebbles.jpg
+7, Wilma, Flintstone, 1989-07-17, 50000, ~/images/wilma2.jpg

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Home"  description="Home Page">
+    <siteMapNode url="~/Employees/Employees.aspx" title="Employees"  description="" />
+    <siteMapNode url="~/FileUpload/upload.aspx" title="File Upload"  description="" />
+    <siteMapNode url="~/ReadingDirectories/Default.aspx" title="ReadingDirectories" description="" />
+    <siteMapNode url="~/ReadingFilesInTheVirtualDirectory/Default.aspx" title="ReadingFilesInTheVirtualDirectory" description="" />
+    <siteMapNode url="~/ReadingFromTextFile/Default.aspx" title="ReadingFromTextFile" description="" />
+    <siteMapNode url="~/WritingToTextFile/Default.aspx" title="WritingToTextFile" description="" />
+  </siteMapNode>
+</siteMap>

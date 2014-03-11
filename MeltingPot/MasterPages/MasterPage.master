@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPages_MasterPage" %>
+
+
+
+<%@ import Namespace="System.IO" %>
+<%@ Register Src="../MeltingPotHeader.ascx" TagName="MeltingPotHeader" TagPrefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <asp:ContentPlaceHolder ID="banner" runat="server">
+                <uc1:MeltingPotHeader ID="MeltingPotHeader1" runat="server" />
+            </asp:ContentPlaceHolder>
+        </header>
+        <nav style="width: 20%;float:left">
+            <asp:ContentPlaceHolder ID="nav" runat="server">
+                <asp:TreeView ID="TreeView1" DataSourceID="SiteMapDataSource1" runat="server">
+                </asp:TreeView>
+            </asp:ContentPlaceHolder>
+
+        </nav>
+        <div style="margin-left: 157px">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+    </form>
+</body>
+</html>

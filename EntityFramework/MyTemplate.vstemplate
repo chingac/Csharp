@@ -1,0 +1,41 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EF1</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EF1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model.Context.tt">Model.Context.tt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model.Context.cs">Model.Context.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model.edmx">Model.edmx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model.Designer.cs">Model.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model.edmx.diagram">Model.edmx.diagram</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model.tt">Model.tt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model.cs">Model.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Bin" TargetFolderName="Bin">
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.dll">EntityFramework.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.dll.refresh">EntityFramework.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EntityFramework.xml">EntityFramework.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.SqlServer.dll">EntityFramework.SqlServer.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.SqlServer.dll.refresh">EntityFramework.SqlServer.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EntityFramework.SqlServer.xml">EntityFramework.SqlServer.xml</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
