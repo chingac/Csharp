@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PizzaSite", "http://localhost:53017", "{2097FCFD-4208-41A0-B0E1-0AEE1BA3ECA0}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		ProjectReferences = "{1a4620f7-68c3-4b6b-9d10-d2472937b133}|MaryPizzaLibrary.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53017"
+		Debug.AspNetCompiler.PhysicalPath = "PizzaSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53017\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53017"
+		Release.AspNetCompiler.PhysicalPath = "PizzaSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53017\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "PizzaSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaryPizzaLibrary", "MaryPizzaLibrary\MaryPizzaLibrary.csproj", "{1A4620F7-68C3-4B6B-9D10-D2472937B133}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{5D9FA1F5-DA54-47E7-B669-4060DB7F4C32}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://chingac.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MaryPizzaLibrary\\MaryPizzaLibrary.csproj
+		SccProjectName1 = MaryPizzaLibrary
+		SccLocalPath1 = MaryPizzaLibrary
+		SccWebProject2 = true
+		SccProjectUniqueName2 = http://localhost:53017
+		SccProjectName2 = PizzaSite
+		SccLocalPath2 = PizzaSite
+		SccProjectEnlistmentChoice2 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2097FCFD-4208-41A0-B0E1-0AEE1BA3ECA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2097FCFD-4208-41A0-B0E1-0AEE1BA3ECA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2097FCFD-4208-41A0-B0E1-0AEE1BA3ECA0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2097FCFD-4208-41A0-B0E1-0AEE1BA3ECA0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1A4620F7-68C3-4B6B-9D10-D2472937B133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A4620F7-68C3-4B6B-9D10-D2472937B133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A4620F7-68C3-4B6B-9D10-D2472937B133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A4620F7-68C3-4B6B-9D10-D2472937B133}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

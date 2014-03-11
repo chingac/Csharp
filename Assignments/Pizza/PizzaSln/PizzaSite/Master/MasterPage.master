@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="Master_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/metro-bootstrap.css" rel="stylesheet" type="text/css" />
+    <style>
+        .MaryPizzaBanner {
+            background-color: orange;
+        }
+
+        .col-xs-4 {
+            width: auto;
+            color: black;
+            text-align: left;
+            top: 2px;
+            left: 6px;
+            margin-left: 0px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container page-header">
+            <div class="col-xs-12">
+                <h1>&nbsp;
+                <asp:Image ID="Image1" runat="server" Height="118px" ImageUrl="~/images/pizza.png" Width="124px" />&nbsp; Mary's Pizzaria
+                </h1>
+            </div>
+        </div>
+        <div class="navbar navbar-inner">
+            <div class="container">
+                <asp:ContentPlaceHolder ID="navigation" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="pageContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <script src="../Scripts/jquery-2.1.0.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>
